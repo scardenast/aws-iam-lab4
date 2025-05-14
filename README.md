@@ -96,7 +96,7 @@ aws s3 ls --profile dev  # debe fallar
 
 ---
 
-## ⚠️ Errores comunes resueltos
+## ⚠️ Errores comunes que tuve
 - `Unable to locate credentials`: faltaba configurar perfil con `aws configure`
 - `AccessDenied`: usuario no estaba asociado al grupo o política no aplicada
 - Región no especificada: se corrigió con `--region` o `aws configure`
